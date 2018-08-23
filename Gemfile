@@ -13,7 +13,7 @@ group :development do
   gem 'pg'
 end
 group :production do
-  gem 'pg'
+  gem 'pg', '0.20.0'
 end 
 
 # Use sqlite3 as the database for Active Record
